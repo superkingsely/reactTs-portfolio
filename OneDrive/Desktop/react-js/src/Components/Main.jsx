@@ -9,7 +9,7 @@ const Main = () => {
   return (
     <main style={{ backgroundColor: "purple", minHeight: "80vh" }}>
       {/* container */}
-      <div className="container" style={{border:'2px solid'}}>
+      <div className="container" style={{border:'2px solid blue'}}>
         {/* count display */}
         <div className="display" style={{border:'2px solid red'}}>
           <h1>{count}</h1>
